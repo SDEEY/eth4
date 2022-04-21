@@ -9,6 +9,7 @@ const Title = 'Trippy Frens'
 const supply = 8888
 
 document.title = Title
+document.getElementById('favicon').setAttribute('href', image)
 
 function App() {
     const [opacity, setOpacity] = useState(0)
