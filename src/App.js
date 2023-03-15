@@ -5,7 +5,7 @@ import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = 0.05
 const image = 'https://pbs.twimg.com/profile_images/1605721243826589696/GvxYCGAI_400x400.png'
-const Title = 'DREAMS NEVER DIE'
+const Title = 'DREAMS NEVER DIEDREAMS NEVER DIE'
 const supply = 222
 
 document.title = Title
