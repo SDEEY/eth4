@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.2 / 0.21 / 0.25'
-const image = 'https://pbs.twimg.com/profile_images/1470127136144969729/xrGjXxsr_400x400.jpg'
-const Title = 'Cult & Rain'
-const supply = 81
+const ethAmount = '0.0085 / 0.01'
+const image = 'https://media.discordapp.net/attachments/1076236726542024805/1086681636617322566/BD13E7C9-DA90-4E86-8D63-D112FDA7A2C6.png?width=554&height=554'
+const Title = 'Tuning In NFTs'
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
