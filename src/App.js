@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0.055'
 const image = 'https://pbs.twimg.com/profile_images/1616619999082471429/cqS62_dK_400x400.jpg'
 const Title = 'METEORIA'
-const supply = 6000
+const supply = 4500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
