@@ -4,9 +4,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1615896103022653440/byr0V9yD_400x400.jpg'
-const Title = 'Booby Birds'
-const supply = 710
+const image = 'https://pbs.twimg.com/profile_images/1580493129978880000/TLncC3mM_400x400.jpg'
+const Title = 'Moonlit Games'
+const supply = 471
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
