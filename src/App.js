@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.04'
+const ethAmount = '0.03 / 0.04'
 const image = 'https://pbs.twimg.com/media/FlbZWrXX0AEA4SL?format=jpg&name=large'
 const Title = 'Lucky Llamas'
 const supply = 4444
