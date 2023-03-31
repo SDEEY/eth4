@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0'
 const image = 'https://pbs.twimg.com/profile_images/1593377865445396492/fOdaWmUl_400x400.jpg'
 const Title = 'Dead Degens'
-const supply = 799
+const supply = 333
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
