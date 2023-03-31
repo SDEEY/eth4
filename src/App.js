@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.023'
-const image = 'https://pbs.twimg.com/profile_images/1631938639318990848/FdxJroTo_400x400.jpg'
-const Title = 'The Enoch Clock'
-const supply = 3027
+const ethAmount = '0.009'
+const image = 'https://pbs.twimg.com/media/FsjafqjXoAIPeQu?format=jpg&name=large'
+const Title = 'Pretty Poopsy NFT'
+const supply = 2150
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
