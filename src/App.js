@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0.03 / 0.04'
 const image = 'https://pbs.twimg.com/media/FlbZWrXX0AEA4SL?format=jpg&name=large'
 const Title = 'Lucky Llamas'
-const supply = 4444
+const supply = 2500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
