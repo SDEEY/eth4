@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1618330833663758337/vNyJwQRk_400x400.jpg'
-const Title = 'Dormint'
-const supply = 100
+const ethAmount = '0.1'
+const image = 'https://media.discordapp.net/attachments/1053955903151415316/1085566810608377986/ezgif-3-93bff57039.gif?width=590&height=590'
+const Title = 'Be Zelensky'
+const supply = 10000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
