@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0.03 / 0.033'
 const image = 'https://pbs.twimg.com/profile_images/1602600156553433088/fXXG3DHc_400x400.jpg'
 const Title = 'Dr1ppynauts'
-const supply = 1899
+const supply = 3999
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
