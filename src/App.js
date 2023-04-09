@@ -4,9 +4,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0.02'
-const image = 'https://pbs.twimg.com/profile_images/1587472439742717953/xri8de6h_400x400.jpg'
-const Title = 'ballz'
-const supply = 800
+const image = 'https://pbs.twimg.com/profile_images/1556696544656519168/UTIWcRRq_400x400.jpg'
+const Title = 'Gray Boys'
+const supply = 2800
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
