@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0.016'
 const image = 'https://pbs.twimg.com/profile_images/1637702463347212289/cfutA_5n_400x400.jpg'
 const Title = 'GLAMOROUS APES'
-const supply = 2810
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
