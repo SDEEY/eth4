@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.095'
-const image = 'https://pbs.twimg.com/profile_images/1633451361164488705/JWIXDiu4_400x400.jpg'
-const Title = 'The Unfettered'
-const supply = 195
+const ethAmount = '0.0065'
+const image = 'https://pbs.twimg.com/profile_images/1621607473491714048/FAHDZmJ__400x400.jpg'
+const Title = 'Drained Planets'
+const supply = 2550
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
