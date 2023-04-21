@@ -4,9 +4,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1628465305755258884/4zcwOOu7_400x400.jpg'
-const Title = 'Shiba Shiba Doge'
-const supply = 2000
+const image = 'https://pbs.twimg.com/profile_images/1646477373788028928/8d0rnmq2_400x400.jpg'
+const Title = 'Crying Girls by HARU'
+const supply = 245
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
