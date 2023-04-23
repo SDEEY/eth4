@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.077'
-const image = 'https://intraverse.io/wp-content/uploads/2023/03/NFT_SILVER_SITO.gif'
-const Title = 'Intraverse'
-const supply = 55
+const ethAmount = '0.025'
+const image = 'https://pbs.twimg.com/profile_images/1597538329297555456/2nR5Vjon_400x400.jpg'
+const Title = 'Mystic Motors NFT'
+const supply = 4000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
