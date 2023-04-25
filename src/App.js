@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0'
 const image = 'https://d1fdloi71mui9q.cloudfront.net/wULFDGPdRI4EWrAzDUzk_2R829GtNxywy9rBq'
 const Title = 'DEFIT'
-const supply = 1000
+const supply = 911
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
