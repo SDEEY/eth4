@@ -3,9 +3,9 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.015 / 0.025 / 0.03'
-const image = 'https://pbs.twimg.com/media/FurlViIWYAI2aBn?format=jpg&name=large'
-const Title = 'The Sanctuary NFT'
+const ethAmount = '$14,99 in eth'
+const image = 'https://pbs.twimg.com/profile_images/1644006580474507266/7e7yxRjp_400x400.jpg'
+const Title = 'NFL Rivals'
 const supply = 5555
 
 document.title = Title
