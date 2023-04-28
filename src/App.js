@@ -5,7 +5,7 @@ import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0'
 const image = 'https://pbs.twimg.com/profile_images/1612817097486106624/LhKTGdaG_400x400.jpg'
-const Title = 'Cows Gone Mad'
+const Title = 'Cows Gone Mad '
 const supply = 3500
 
 document.title = Title
