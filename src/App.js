@@ -4,9 +4,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0'
-const image = 'https://pbs.twimg.com/profile_images/1612817097486106624/LhKTGdaG_400x400.jpg'
-const Title = 'Cows Gone Mad '
-const supply = 3500
+const image = 'https://pbs.twimg.com/profile_images/1645404105869852673/25MyW7o4_400x400.jpg'
+const Title = 'pepe.doom'
+const supply = 3300
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
