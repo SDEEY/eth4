@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0.15'
 const image = 'https://pbs.twimg.com/profile_images/1625875594129858562/_Xzqqhz1_400x400.jpg'
 const Title = 'Luna Hunters NFT'
-const supply = 888
+const supply = 444
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
