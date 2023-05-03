@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.08'
+const ethAmount = '0.05 / 0.08'
 const image = 'https://pbs.twimg.com/profile_images/1645536143700549633/4P0U9FNU_400x400.jpg'
 const Title = 'ZKDICKBUTTS'
 const supply = 6755
