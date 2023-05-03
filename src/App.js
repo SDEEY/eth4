@@ -5,7 +5,7 @@ import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0.03'
 const image = 'https://pbs.twimg.com/profile_images/1642700244533272577/9tH5LGFs_400x400.jpg'
-const Title = 'Freckle TV'
+const Title = 'Freckle TV '
 const supply = 4180
 
 document.title = Title
