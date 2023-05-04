@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.15'
-const image = 'https://pbs.twimg.com/profile_images/1625875594129858562/_Xzqqhz1_400x400.jpg'
-const Title = 'Luna Hunters NFT'
-const supply = 444
+const ethAmount = '0.1'
+const image = 'https://pbs.twimg.com/profile_images/1622807590181928960/1uFfs7Aq_400x400.png'
+const Title = 'LUNATICS'
+const supply = 777
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
