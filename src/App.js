@@ -4,7 +4,7 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0.029'
-const image = 'https://pbs.twimg.com/profile_images/1631351121007525888/cGQo9PJo_400x400.jpg'
+const image = 'https://pbs.twimg.com/media/FvO3XEXX0AIf8wc?format=jpg&name=large'
 const Title = 'House of Fashion'
 const supply = 10000
 
