@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0.033'
 const image = 'https://pbs.twimg.com/profile_images/1617641690969276417/J7Ejca9e_400x400.jpg'
 const Title = 'Apollumia'
-const supply = 3333
+const supply = 1000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
