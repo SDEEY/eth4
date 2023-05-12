@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0'
 const image = 'https://pbs.twimg.com/profile_images/1656667875967631360/bdfhQqv0_400x400.jpg'
 const Title = 'PépéNFT'
-const supply = 7777
+const supply = 971
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
