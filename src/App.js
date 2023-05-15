@@ -4,9 +4,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0.055'
-const image = 'https://pbs.twimg.com/profile_images/1657582899879903232/alCkcE2p_400x400.jpg'
+const image = 'https://pbs.twimg.com/media/FwKilOjaQAEcVYq?format=jpg&name=large'
 const Title = 'The Gardens'
-const supply = 1000
+const supply = 771
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
