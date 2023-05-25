@@ -4,9 +4,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0'
-const image = 'https://d1fdloi71mui9q.cloudfront.net/oPEtPtIjTzWM4UbqpGgF_EXQ3XGQ8gPJPxR6b'
-const Title = 'Stumble Upon Rumble'
-const supply = 1500
+const image = 'https://pbs.twimg.com/profile_images/1636304039611887617/APdi_H0l_400x400.jpg'
+const Title = 'Blockepic'
+const supply = 1000
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
