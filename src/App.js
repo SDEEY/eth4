@@ -3,9 +3,9 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '0.12'
-const image = 'https://pbs.twimg.com/profile_images/1633516327921909762/HI__cD2X_400x400.jpg'
-const Title = 'Calendar For Every Day'
+const ethAmount = '0.005'
+const image = 'https://pbs.twimg.com/profile_images/1667396888776286213/68MA3CZp_400x400.png'
+const Title = 'Wild Pepe'
 const supply = 2222
 
 document.title = Title
