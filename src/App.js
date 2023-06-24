@@ -6,7 +6,7 @@ import imgTwitter from './icons8-twitter-50.png'
 const ethAmount = '0.055/0.06'
 const image = 'https://pbs.twimg.com/profile_images/1570570759767982080/vhrADMzA_400x400.jpg'
 const Title = 'Kyokai'
-const supply = 1000
+const supply = 671
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
