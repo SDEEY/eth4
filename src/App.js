@@ -4,9 +4,9 @@ import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
 const ethAmount = '0.01'
-const image = 'https://pbs.twimg.com/profile_images/1667255777831145486/MYqi5SiK_400x400.jpg'
-const Title = 'Black Hat NFT'
-const supply = 1000
+const image = 'https://pbs.twimg.com/profile_images/1673934661200883712/DSKPMyxX_400x400.jpg'
+const Title = 'Exo Utopic Parallel Planetz'
+const supply = 1500
 
 document.title = Title
 document.getElementById('favicon').setAttribute('href', image)
