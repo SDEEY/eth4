@@ -3,7 +3,7 @@ import {useEffect, useState} from "react";
 import imgDiscord from './icons8-discord-50.png'
 import imgTwitter from './icons8-twitter-50.png'
 
-const ethAmount = '2.4 in eth'
+const ethAmount = '2.4$ in eth'
 const image = 'https://pbs.twimg.com/media/F4PJwjcWMAE4Wa3?format=jpg&name=medium'
 const Title = 'Factions'
 const supply = 3971
